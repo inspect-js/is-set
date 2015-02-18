@@ -1,0 +1,29 @@
+{
+  "name": "is-set",
+  "version": "0.0.0",
+  "description": "Easily check if a specified object is an ES6 Set",
+  "keywords": [
+    "set",
+    "sets",
+    "typeof",
+    "type checking",
+    "check",
+    "es6",
+    "harmony"
+  ],
+  "license": "MIT",
+  "author": "Arthur Verschaeve <contact@arthurverschaeve.be>",
+  "files": [
+    "index.js"
+  ],
+  "repository": "arthurvr/is-set",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "devDependencies": {
+    "ava": "^0.0.4"
+  },
+  "engines": {
+    "node": ">=0.12.0"
+  }
+}
