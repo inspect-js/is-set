@@ -1,6 +1,6 @@
 {
   "name": "is-set",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Easily check if a specified object is an ES6 Set",
   "keywords": [
     "set",
