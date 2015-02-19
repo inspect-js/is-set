@@ -20,6 +20,12 @@ isSet({});
 //=> false
 ```
 
+## Related
+
+* [`is-weakset`](https://github.com/arthurvr/is-weakset)
+* [`is-map`](https://github.com/arthurvr/is-map)
+* [`is-weakmap`](https://github.com/arthurvr/is-weakset)
+
 ## License
 
 MIT © Arthur Verschaeve
