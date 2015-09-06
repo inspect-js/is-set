@@ -3,7 +3,9 @@ var test = require('ava');
 var isSet = require('./');
 
 test(function (t) {
-	t.assert(isSet(new Set()));
-	t.assert(!isSet({}));
-	t.assert(!isSet([]));
+	t.true(isSet(new Set()));
+	t.false(isSet({}));
+	t.false(isSet([]));
+
+	t.end();
 });
