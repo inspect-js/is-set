@@ -1,8 +1,7 @@
-'use strict';
-var test = require('ava');
-var isSet = require('./');
+import test from 'ava';
+import isSet from './';
 
-test(function (t) {
+test(t => {
 	t.true(isSet(new Set()));
 	t.false(isSet({}));
 	t.false(isSet([]));
