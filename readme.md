@@ -13,7 +13,7 @@ $ npm install --save is-set
 ## Usage
 
 ```javascript
-var isSet = require('is-set');
+const isSet = require('is-set');
 
 isSet(new Set());
 //=> true
@@ -32,4 +32,4 @@ isSet({});
 
 ## License
 
-MIT © [Arthur Verschaeve](https://github.com/arthurvr)
+MIT © [Arthur Verschaeve](http://arthurverschaeve.be)
