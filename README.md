@@ -8,7 +8,7 @@
 
 [![npm badge][11]][1]
 
-Is this value a JS Map? This module works cross-realm/iframe, and despite ES6 @@toStringTag.
+Is this value a JS Set? This module works cross-realm/iframe, and despite ES6 @@toStringTag.
 
 ## Example
 
