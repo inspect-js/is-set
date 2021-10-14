@@ -1,13 +1,13 @@
-# is-set <sup>[![Version Badge][2]][1]</sup>
+# is-set <sup>[![Version Badge][npm-version-svg]][package-url]</sup>
 
 [![github actions][actions-image]][actions-url]
 [![coverage][codecov-image]][codecov-url]
-[![dependency status][5]][6]
-[![dev dependency status][7]][8]
+[![dependency status][deps-svg]][deps-url]
+[![dev dependency status][dev-deps-svg]][dev-deps-url]
 [![License][license-image]][license-url]
 [![Downloads][downloads-image]][downloads-url]
 
-[![npm badge][11]][1]
+[![npm badge][npm-badge-png]][package-url]
 
 Is this value a JS Set? This module works cross-realm/iframe, and despite ES6 @@toStringTag.
 
@@ -35,13 +35,13 @@ assert(isSet(new MySet()));
 ## Tests
 Simply clone the repo, `npm install`, and run `npm test`
 
-[1]: https://npmjs.org/package/is-set
-[2]: https://versionbadg.es/inspect-js/is-set.svg
-[5]: https://david-dm.org/inspect-js/is-set.svg
-[6]: https://david-dm.org/inspect-js/is-set
-[7]: https://david-dm.org/inspect-js/is-set/dev-status.svg
-[8]: https://david-dm.org/inspect-js/is-set#info=devDependencies
-[11]: https://nodei.co/npm/is-set.png?downloads=true&stars=true
+[package-url]: https://npmjs.org/package/is-set
+[npm-version-svg]: https://versionbadg.es/inspect-js/is-set.svg
+[deps-svg]: https://david-dm.org/inspect-js/is-set.svg
+[deps-url]: https://david-dm.org/inspect-js/is-set
+[dev-deps-svg]: https://david-dm.org/inspect-js/is-set/dev-status.svg
+[dev-deps-url]: https://david-dm.org/inspect-js/is-set#info=devDependencies
+[npm-badge-png]: https://nodei.co/npm/is-set.png?downloads=true&stars=true
 [license-image]: https://img.shields.io/npm/l/is-set.svg
 [license-url]: LICENSE
 [downloads-image]: https://img.shields.io/npm/dm/is-set.svg
