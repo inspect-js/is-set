@@ -58,5 +58,8 @@
 		"commitLimit": false,
 		"backfillLimit": false,
 		"hideCredit": true
+	},
+	"engines": {
+		"node": ">= 0.4"
 	}
 }
