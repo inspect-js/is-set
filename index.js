@@ -7,8 +7,8 @@ var exported;
 
 if (!$Set) {
 	/** @type {import('.')} */
-	// eslint-disable-next-line no-unused-vars
-	exported = function isSet(x) {
+	// @ts-expect-error
+	exported = function isSet(x) { // eslint-disable-line no-unused-vars
 		// `Set` is not present in this environment.
 		return false;
 	};
@@ -18,8 +18,8 @@ var $mapHas = $Map ? Map.prototype.has : null;
 var $setHas = $Set ? Set.prototype.has : null;
 if (!exported && !$setHas) {
 	/** @type {import('.')} */
-	// eslint-disable-next-line no-unused-vars
-	exported = function isSet(x) {
+	// @ts-expect-error
+	exported = function isSet(x) { // eslint-disable-line no-unused-vars
 		// `Set` does not have a `has` method
 		return false;
 	};
