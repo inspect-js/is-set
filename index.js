@@ -31,16 +31,18 @@ module.exports = exported || function isSet(x) {
 		return false;
 	}
 	try {
-		$setHas.call(x);
-		if ($mapHas) {
-			try {
-				$mapHas.call(x);
-			} catch (e) {
-				return true;
+		if ($setHas) {
+			$setHas.call(x, 0);
+			if ($mapHas) {
+				try {
+					$mapHas.call(x, 0);
+				} catch (e) {
+					return true;
+				}
 			}
+			// @ts-expect-error TS can't figure out that $Set is always truthy here
+			return x instanceof $Set; // core-js workaround, pre-v2.5.0
 		}
-		// @ts-expect-error TS can't figure out that $Set is always truthy here
-		return x instanceof $Set; // core-js workaround, pre-v2.5.0
 	} catch (e) {}
 	return false;
 };
