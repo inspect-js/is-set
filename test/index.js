@@ -3,6 +3,7 @@
 var test = require('tape');
 var debug = require('object-inspect');
 var forEach = require('for-each');
+var SafeSet = require('safeset');
 
 var isSet = require('..');
 
@@ -54,6 +55,13 @@ test('WeakMaps', { skip: typeof WeakMap !== 'function' }, function (t) {
 test('WeakSets', { skip: typeof WeakSet !== 'function' }, function (t) {
 	var ws = new WeakSet();
 	t.equal(isSet(ws), false, debug(ws) + ' is not a Set');
+
+	t.end();
+});
+
+test('SafeSet', function (t) {
+	var ss = new SafeSet();
+	t.equal(isSet(ss), true, debug(ss) + ' is a Set');
 
 	t.end();
 });

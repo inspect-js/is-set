@@ -56,6 +56,7 @@
 		"nyc": "^10.3.2",
 		"object-inspect": "^1.13.1",
 		"safe-publish-latest": "^2.0.0",
+		"safeset": "^1.0.1",
 		"tape": "^5.7.5",
 		"typescript": "next"
 	},
