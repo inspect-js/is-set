@@ -48,6 +48,7 @@
 		"auto-changelog": "^2.5.0",
 		"core-js": "^2.6.12",
 		"encoding": "^0.1.13",
+		"es-set": "^2.0.1",
 		"es5-shim": "^4.6.7",
 		"es6-shim": "^0.35.8",
 		"eslint": "=8.8.0",
